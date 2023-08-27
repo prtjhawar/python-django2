@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+            animation-name: preeti;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+        }
+        @keyframes preeti {
+            from{
+                width: 100px;
+                background-color: aqua;
+                border-radius: 50px;
+                height: 200px;
+                left:0px;
+            }
+            to{
+                width: 1400px ;
+                background-color: blue;
+                border-radius: 250px;
+                height: 600px;
+                left : 150px;
+            }
+        }
+            .box-2{
+                height:200px;
+                width : 200px;
+                background-color:black ;
+                animation-name: preeti1;
+                animation-duration: 6s;
+                animation-iteration-count: 3;
+                position : absolute;
+                top: 0px;
+
+            }
+@keyframes preeti1 {
+         0%{
+                left:0;
+                top: 0;
+
+
+            }
+            25%{
+                top:0;
+                left: 500px;
+
+            }
+            50%{
+                top: 400px;
+                left: 400px;
+                background-color: 10px;
+                background-color: brown;
+            }
+            75%{
+                top : 400px;
+                left:1200px;
+                border-radius: 250px;
+                background-color: blue;
+    
+}
+}
+
+
+
+            
+        
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box box-2"></div>
+
+        
+    
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(157, 255, 0);
+        animation-name: preeti;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        position: relative;
+
+    }
+        @keyframes preeti {
+             form{
+                width: 200px;
+                background-color: rgb(245, 12, 148);
+                border-radius: 5px ;
+                height: 100px;
+            }
+            to{
+                width: 100px;
+                background-color: rgb(255, 72, 0);
+                border-radius: 200px ;
+                height: 100px;
+            }
+            0%{
+                left:0;
+                top: 0;
+
+
+            }
+            25%{
+                top:0;
+                left: 500px;
+
+            }
+            50%{
+                top: 500px;
+                left: 500px;
+            }
+            75%{
+                top : 500px;
+                left:1000px;
+            }
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+</body>
+</html>
